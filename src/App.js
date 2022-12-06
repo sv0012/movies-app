@@ -3,7 +3,7 @@ import "./App.css";
 import List from "./components/List";
 
 function App() {
-  const [genre, setGenre] = useState("")
+  const [genre, setGenre] = useState("Action")
   const handleClick = (e) =>{
     setGenre(e.target.value);
   }
